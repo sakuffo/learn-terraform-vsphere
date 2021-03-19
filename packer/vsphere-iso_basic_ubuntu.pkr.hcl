@@ -23,7 +23,7 @@ source "vsphere-iso" "this" {
     disk_thin_provisioned = true
   }
 
-  iso_paths = ["[vsanDatastore] Installers/ubuntu-14.04.1-server-amd64.iso"]
+  iso_paths = ["[vxrail-datastore] Installers/ubuntu-14.04.1-server-amd64.iso"]
   // iso_checksum = "sha256:b23488689e16cad7a269eb2d3a3bf725d3457ee6b0868e00c8762d3816e25848"
 
   network_adapters {
